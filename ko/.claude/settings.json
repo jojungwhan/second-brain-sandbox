@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(/my-notes/**)",
+      "Edit(/daily/**)",
+      "Edit(/interests/**)",
+      "Edit(/templates/**)",
+      "Edit(/tools/**)",
+      "Edit(/skills/**)",
+      "Edit(/checks/**)",
+      "Edit(/AGENTS.md)",
+      "Edit(/CLAUDE.md)",
+      "Edit(/.claude/**)"
+    ],
+    "allow": [
+      "Bash(python3 tools/authorship.py:*)",
+      "Bash(python tools/authorship.py:*)"
+    ]
+  }
+}

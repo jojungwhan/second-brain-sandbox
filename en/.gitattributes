@@ -1,0 +1,3 @@
+# Keep line endings exactly as each file was saved, on every system.
+# Without this, Git on Windows prints a line-ending warning for every file.
+* -text
